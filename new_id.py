@@ -14,11 +14,10 @@ def solution(new_id):
 
 # print(a)
 
-a = "aASDASDQWEQWEe"
+a = "aASDASDQWEQWEe123123"
 
 # 정규 표현식 시작
-a = a.replace("[/A-Z]+$", "")
+a = a.replace("[^a-z]", "")
 
-a.replace
 
 print(a)
